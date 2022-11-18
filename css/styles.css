@@ -1,0 +1,132 @@
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Red Hat Display', sans-serif;
+  color: grey;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: relative;
+  z-index: -1;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  width: 400px;
+  top: -20rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.illustration-dancing {
+  width: 400px;
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+.order-summary {
+  text-align: center;
+}
+
+.sub-heading {
+  padding: 1% 4% 8%;
+}
+
+.subscription-plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.music-icon {
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: hsl(225, 100%, 94%);
+  float: left;
+  margin-right: 1rem;
+  
+}
+
+.icon {
+  display: inline-block;
+}
+
+.plan {
+  display: inline-block;
+}
+
+.change-button {
+  margin-top: .5rem;
+  float: right;
+  font-weight: bold;
+}
+
+.change-button:hover {
+  color: hsl(241, 37%, 57%);
+  text-decoration: none;
+}
+
+.pay-button {
+  background-color: hsl(245, 75%, 52%);
+  width: 320px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pay-button:hover {
+  background-color: hsl(241, 37%, 57%);
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #fff;
+  width: 320px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: .5rem;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.cancel-button:hover {
+  cursor: pointer;
+}
